@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">     <!--Api de google, fuente Roboto-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/91880aa87c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="./img/ConFondo.gif" alt="Mi imagen" class="avatar">
+        <h1>Pedro Campodonico</h1>
+        <h2>Web Development</h2>
+        <nav>
+            <ul class="scroll-link>">
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#habilidades" >Habilidades</a></li>
+                <li><a href="#proyectos" >Proyectos</a></li>
+                <li><a href="#contacto" class="scroll-link">Contacto</a></li>
+            </ul>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <div class="sobre-mi-container">
+              <div class="foto">
+                <img src="./img/sobreMi.jpg" alt="Mi foto">
+              </div>
+              <div class="descripcion">
+                <h2>Sobre mí</h2>
+                <p>Soy un apasionado programador web con amplia experiencia en el desarrollo de sitios web modernos y funcionales. Mi enfoque se centra en crear soluciones innovadoras y satisfactorias para mis clientes. Tengo habilidades sólidas en HTML, CSS y JavaScript, y me encanta estar al día con las últimas tendencias y tecnologías en el mundo del desarrollo web. Mi objetivo es crear experiencias en línea excepcionales y ayudar a las empresas a destacar en el mundo digital.</p>
+              </div>              
+            </div>
+          </section>          
+
+          <section id="habilidades">
+            <div class="habilidades-container">
+              <h2>Habilidades y Herramientas</h2>
+              <h1>Mi caja de herramientas y cosas que puedo hacer</h1>
+              <p>Las habilidades, herramientas y tecnologías que utilizo para dar vida a mis productos:</p>
+              <div class="habilidades-lista">
+                <div class="habilidad">
+                  <i class="fab fa-html5"></i>
+                  <span class="habilidad-nombre">HTML</span>
+                </div>
+                <div class="habilidad">
+                  <i class="fab fa-css3-alt"></i>
+                  <span class="habilidad-nombre">CSS</span>
+                </div>
+                <div class="habilidad">
+                  <i class="fab fa-js-square"></i>
+                  <span class="habilidad-nombre">JavaScript</span>
+                </div>
+                <div class="habilidad">
+                  <i class="fab fa-python"></i>
+                  <span class="habilidad-nombre">Python</span>
+                </div>
+              </div>
+            </div>
+          </section>       
+                   
+          <section id="proyectos">
+            <h2 class="proyectos-titulo">Mis Proyectos</h2>
+            <div class="proyectos-container">
+              <div class="proyecto">
+                <img src="./img/proyecto1.png" alt="Imagen del Proyecto">
+                <div class="proyecto-nombre">Hiperblog</div>
+              </div>              
+              <div class="proyecto">
+                <img src="./img/proyecto2.png" alt="Imagen del Proyecto">
+                <div class="proyecto-nombre">Fb rosa (broma)</div>
+              </div>
+              
+            </div>
+          </section>                    
+
+          <section id="contacto">
+            <div class="contacto-container">
+              <h2>Contacto</h2>
+              <div class="formulario-contacto">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo electrónico">
+                <textarea placeholder="Mensaje"></textarea>
+                <button type="submit">Enviar</button>
+              </div>
+            </div>
+          </section>
+          
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>&copy; Derechos de autor © 2023. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

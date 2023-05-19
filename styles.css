@@ -394,6 +394,24 @@ footer {
   font-size: 14px;
   margin: 0;
 }
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.redes-sociales a {
+  margin: 0 15px;
+}
+
+.redes-sociales i {
+  font-size: 40px; /* Ajusta el tamaño de fuente según sea necesario */
+  line-height: 70px; /* Ajusta el tamaño de línea según sea necesario */
+  width: 70px;
+  height: 70px;
+}
+
 
 
 
